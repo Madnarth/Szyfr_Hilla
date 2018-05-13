@@ -1,0 +1,68 @@
+﻿<Window x:Class="Szyfr_Hilla.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Szyfr_Hilla"
+        mc:Ignorable="d"
+        Title="Szyfr Hilla" Height="350" Width="525">
+    <StackPanel HorizontalAlignment="Center">
+        
+        <StackPanel.Resources>
+            <Style TargetType="{x:Type TextBox}">
+                <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                <Setter Property="MinWidth" Value="100"></Setter>
+                <Setter Property="MaxWidth" Value="150"></Setter>
+                <Setter Property="TextWrapping" Value="Wrap"></Setter>
+                <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+                <Setter Property="MaxLength" Value="50"></Setter>
+            </Style>
+            <Style TargetType="{x:Type TextBlock}">
+                <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            </Style>
+            <Style TargetType="{x:Type ComboBox}">
+                <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            </Style>
+            <Style TargetType="{x:Type Button}">
+                <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                <Setter Property="MinWidth" Value="100"></Setter>
+            </Style>
+            <Style TargetType="{x:Type StackPanel}">
+                <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            </Style>
+        </StackPanel.Resources>
+        
+        <TextBlock Text="Wprowadź tekst"></TextBlock>
+        <TextBox Name="tbInput" PreviewTextInput="tbText_PreviewTextInput"></TextBox>
+        <TextBlock Text="Wprowadź klucz"></TextBlock>
+        
+        <StackPanel Orientation="Horizontal">
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type TextBox}">
+                    <Setter Property="Width" Value="30"></Setter>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+                </Style>
+            </StackPanel.Resources>
+            <TextBox Name="tbKey1" MaxLength="2" PreviewTextInput="tbKey1_PreviewTextInput" CommandManager.PreviewExecuted="tbKey1_PreviewExecuted" ContextMenu="{x:Null}"></TextBox>
+            <TextBox Name="tbKey2" MaxLength="2" PreviewTextInput="tbKey2_PreviewTextInput" CommandManager.PreviewExecuted="tbKey2_PreviewExecuted" ContextMenu="{x:Null}"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type TextBox}">
+                    <Setter Property="Width" Value="30"></Setter>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+                </Style>
+            </StackPanel.Resources>
+            <TextBox Name="tbKey3" MaxLength="2" PreviewTextInput="tbKey3_PreviewTextInput" CommandManager.PreviewExecuted="tbKey3_PreviewExecuted" ContextMenu="{x:Null}"></TextBox>
+            <TextBox Name="tbKey4" MaxLength="2" PreviewTextInput="tbKey4_PreviewTextInput" CommandManager.PreviewExecuted="tbKey4_PreviewExecuted" ContextMenu="{x:Null}"></TextBox>
+        </StackPanel>
+        
+        <ComboBox Name="combOption" SelectedIndex="0">
+            <ComboBoxItem>Szyfruj</ComboBoxItem>
+            <ComboBoxItem>Deszyfruj</ComboBoxItem>
+        </ComboBox>
+        <Button Name="bExec" Content="WYKONAJ" Click="bExec_Click"></Button>
+        <TextBlock Text="Wynik"></TextBlock>
+        <TextBox Name="tbOutput" IsReadOnly="True"></TextBox>
+    </StackPanel>
+</Window>

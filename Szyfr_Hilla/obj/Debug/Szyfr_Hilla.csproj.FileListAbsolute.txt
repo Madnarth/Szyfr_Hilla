@@ -1,0 +1,14 @@
+E:\Dokumenty\GitHub\Szyfr_Hilla\Szyfr_Hilla\bin\Debug\Szyfr_Hilla.exe.config
+E:\Dokumenty\GitHub\Szyfr_Hilla\Szyfr_Hilla\obj\Debug\Szyfr_Hilla.csprojResolveAssemblyReference.cache
+E:\Dokumenty\GitHub\Szyfr_Hilla\Szyfr_Hilla\obj\Debug\App.g.cs
+E:\Dokumenty\GitHub\Szyfr_Hilla\Szyfr_Hilla\obj\Debug\Szyfr_Hilla_MarkupCompile.cache
+E:\Dokumenty\GitHub\Szyfr_Hilla\Szyfr_Hilla\bin\Debug\Szyfr_Hilla.exe
+E:\Dokumenty\GitHub\Szyfr_Hilla\Szyfr_Hilla\bin\Debug\Szyfr_Hilla.pdb
+E:\Dokumenty\GitHub\Szyfr_Hilla\Szyfr_Hilla\obj\Debug\MainWindow.g.cs
+E:\Dokumenty\GitHub\Szyfr_Hilla\Szyfr_Hilla\obj\Debug\Szyfr_Hilla_MarkupCompile.lref
+E:\Dokumenty\GitHub\Szyfr_Hilla\Szyfr_Hilla\obj\Debug\MainWindow.baml
+E:\Dokumenty\GitHub\Szyfr_Hilla\Szyfr_Hilla\obj\Debug\Szyfr_Hilla.g.resources
+E:\Dokumenty\GitHub\Szyfr_Hilla\Szyfr_Hilla\obj\Debug\Szyfr_Hilla.Properties.Resources.resources
+E:\Dokumenty\GitHub\Szyfr_Hilla\Szyfr_Hilla\obj\Debug\Szyfr_Hilla.csproj.GenerateResource.Cache
+E:\Dokumenty\GitHub\Szyfr_Hilla\Szyfr_Hilla\obj\Debug\Szyfr_Hilla.exe
+E:\Dokumenty\GitHub\Szyfr_Hilla\Szyfr_Hilla\obj\Debug\Szyfr_Hilla.pdb
